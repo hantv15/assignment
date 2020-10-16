@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Metro</title>
+    <link rel="stylesheet" href="../public/styles.css">
+    <style>
+        .sale-up {
+            background-image: url('https://www.radiustheme.com/demo/wordpress/themes/metro/wp-content/uploads/2020/02/bench-accounting-scaled.jpg')
+        }
+
+        .bgh {
+            background-color: #111111;
+        }
+    </style>
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="scss/fontawesome.scss">
+    <script src="/js/all.js"></script>
+    <script>
+        const btnMobile = document.querySelector('#btn-mobile');
+
+        btnMobile.addEventListener('click', function () {
+            mainMenu.classList.toggle('hidden');
+        })
+    </script>
+</head>
+
+<body class="px-8">
+    <header>
+        <div class="container mx-auto">
+            <div class="flex justify-between items-center md:hidden">
+                <a href="#">
+                    <img src="/img/1.png" alt="">
+                </a>
+                <button id="btn-mobile">mobile</button>
+            </div>
+            <div class="xl:flex items-center py-5">
+                <a class="hidden xl:block" href="#">
+                    <img src="/img/1.png" class="mx-auto" alt="">
+                </a>
+                <div class="xl:ml-48 xl:flex justify-between w-full">
+                    <nav>
+                        <ul id="main-menu" class="flex justify-center mg:hidden ">
+                            <li><a class="px-4 text-base" href="#">
+                                    <select name="" id="">
+                                        <option value="Home">
+                                            Home
+                                        </option>
+                                    </select>
+                                </a></li>
+                            <li><a class="px-4 text-base" href="#">
+                                    <select name="" id="">
+                                        <option value="Home">
+                                            Shop
+                                        </option>
+                                    </select>
+                                </a></li>
+                            <li><a class="px-4 text-base" href="#">
+                                    <select name="" id="">
+                                        <option value="Home">
+                                            Pages
+                                        </option>
+                                    </select>
+                                </a></li>
+                            <li><a class="px-4 text-base" href="#">
+
+                                    <select name="" id="">
+                                        <option value="Home">
+                                            Element
+                                        </option>
+                                    </select>
+                                </a></li>
+                            <li><a class="px-4 text-base" href="#">
+                                    <select name="" id="">
+                                        <option value="Home">
+                                            Blog
+                                        </option>
+                                    </select>
+                                </a></li>
+                            <li><a class="px-4 text-base" href="#">
+                                    <select name="" id="">
+                                        <option value="Home">
+                                            Contact
+                                        </option>
+                                    </select>
+                                </a></li>
+                        </ul>
+                    </nav>
+                    <div class="">
+                        <a href="#"><i class="fas fa-user xl:fa-lg"></i></a>
+                        <a href="#"><i class="fas fa-shopping-cart xl:fa-lg"></i></a>
+                        <span>$0.00</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section>
+        <div class="relative py-5">
+            <img src="../img/banner.jpg" style="height: 338px;" class=" bg-cover" alt="">
+            <div class="absolute top-0 left-0 right-0 bottom-0 mx-auto pl-64 ml-40 mt-32">
+                <div class="">
+                    <h1 class="block pl-40 text-black text-3xl font-semibold">MEN</h1>
+                    <ul class="flex gap-1 text-base">
+                        <li class="text-gray-500"><a href="/">Home ></a></li>
+                        <li class="text-gray-500"><a href="/">Shop ></a></li>
+                        <li class="text-gray-500"><a href="/">Products ></a></li>
+                        <li class="text-gray-500"><a href="/">Electornic ></a></li>
+                        <li class="text-gray-500"><a href="/">Accessories ></a></li>
+                        <li><a href="/">Men</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="">
+            <div class="relative">
+                <img src="/img/p_4.jpg" alt="">
+                <span class="absolute top-0 left-0 mt-3 ml-5 bg-black text-white text-xs py-1 px-2 rounded">
+                    -4%
+                </span>
+            </div>
+            <div class="">
+                <div class="">
+                    <h1>Game Controller</h1>
+                    <br>
+                    <span>$390.00</span>
+                    <br>
+                    <span>$375.00</span>
+                </div>
+                <div class="">
+                    <span>SKU: <span>BN306</span></span> . <span>Avaibility: <span>in stock</span> </span>
+                    <br>
+                    <span>Categories: <span>Accessories, Electornic</span></span> . <span>Tag: <span>Device, Gaming</span> </span>
+                </div>
+                <div class="">
+                    <ul class="pl-10 col-span-2 flex gap-5 p-0">
+                    <span>Share:</span>
+                        <li><a href="#"><i class=" text-gray-500 hover:text-white fab fa-facebook-f"></i></a></li>
+                        <li><a href="#"><i class=" text-gray-500 hover:text-white fab fa-twitter"></i></a></li>
+                        <li><a href="#"><i class=" text-gray-500 hover:text-white fab fa-linkedin-in"></i></a></li>
+                        <li><a href="#"><i class=" text-gray-500 hover:text-white fab fa-youtube"></i></a></li>
+                        <li><a href="#"><i class=" text-gray-500 hover:text-white fab fa-pinterest"></i></a></li>
+                        <li><a href="#"><i class=" text-gray-500 hover:text-white fas fa-rss"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class=" bgh  text-white py-20 pl-20 border-b border-gray-400">
+        <div class="grid flex grid-cols-1 xl:grid-cols-12 gap-1">
+            <div class="col-span-3">
+                <img src="/img/motro_mini.png" alt="">
+                <ul>
+                    <li class="block  py-2">
+                        <i class="fas fa-map-marker-alt  fa-2x"></i>
+                        <span>59 Street, Newyork City, Rose Town, 05 Rive House</span>
+                    </li>
+                    <li class="class=" block py-2">
+                        <i class="fas fa-phone-volume fa-2x"></i>
+                        <span>+123 456 7890</span>
+                    </li>
+                    <li class="block  py-2">
+                        <i class="far fa-envelope fa-2x"></i>
+                        <span>info@example.com</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-span-3">
+                <h3 class="text-lg font-bold pb-2">
+                    INFORMATION
+                </h3>
+                <div class=" block w-12 h-1 bg-white rounded-full">
+
+                </div>
+                <ul>
+                    <li><a class="block  py-2" href="#">About us</a></li>
+                    <li><a class="block  py-2" href="#">Latest Post</a></li>
+                    <li><a class="block  py-2" href="#">Selling Tips</a></li>
+                    <li><a class="block  py-2" href="#">Advertising</a></li>
+                    <li><a class="block  py-2" href="#">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="col-span-3">
+                <h3 class="text-lg font-bold pb-2">
+                    MY ACCOUNT
+                </h3>
+                <div class=" block w-12 h-1 bg-white rounded-full">
+
+                </div>
+                <ul>
+                    <li><a class="block  py-2" href="#">My Account</a></li>
+                    <li><a class="block  py-2" href="#">Login/Register</a></li>
+                    <li><a class="block  py-2" href="#">Cart</a></li>
+                    <li><a class="block  py-2" href="#">Wishlist</a></li>
+                    <li><a class="block  py-2" href="#">Order History</a></li>
+                </ul>
+            </div>
+            <div class="col-span-3">
+                <h3 class="text-lg font-bold pb-2">
+                    HELP & SUPPORT
+                </h3>
+                <div class=" block w-12 h-1 bg-white rounded-full">
+
+                </div>
+                <ul>
+                    <li><a class="block  py-2" href="#">How To Shop</a></li>
+                    <li><a class="block  py-2" href="#">Payment</a></li>
+                    <li><a class="block  py-2" href="#">Returns</a></li>
+                    <li><a class="block  py-2" href="#">Returns</a></li>
+                    <li><a class="block  py-2" href="#">Privacy & Cookie Policy</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section class="grid grid-cols-12 bgh text-white pl-16 py-16 gap-10">
+        <div class="col-span-5">
+            <span class="text-gray-200">
+                © Copyright Metro 2020. Designed and Developed by
+            </span>
+            <a class="hover:underline" href="#">RadiusTheme
+            </a>
+        </div>
+        <ul class="pl-10 col-span-2 flex gap-5 p-0">
+            <li><a href="#"><i class=" text-gray-500 hover:text-white fab fa-facebook-f"></i></a></li>
+            <li><a href="#"><i class=" text-gray-500 hover:text-white fab fa-twitter"></i></a></li>
+            <li><a href="#"><i class=" text-gray-500 hover:text-white fab fa-linkedin-in"></i></a></li>
+            <li><a href="#"><i class=" text-gray-500 hover:text-white fab fa-youtube"></i></a></li>
+            <li><a href="#"><i class=" text-gray-500 hover:text-white fab fa-pinterest"></i></a></li>
+            <li><a href="#"><i class=" text-gray-500 hover:text-white fas fa-rss"></i></a></li>
+        </ul>
+        <ul class=" pl-24 col-span-4 flex gap-2">
+            <li class="">
+                <a class="" href="#"><img class=""
+                        src="https://www.radiustheme.com/demo/wordpress/themes/metro/wp-content/themes/metro/assets/img/payment1.png"
+                        alt=""></a>
+            </li>
+            <li>
+                <a href="#"><img
+                        src="https://www.radiustheme.com/demo/wordpress/themes/metro/wp-content/themes/metro/assets/img/payment2.png"
+                        alt=""></a>
+            </li>
+            <li>
+                <a href="#"><img
+                        src="https://www.radiustheme.com/demo/wordpress/themes/metro/wp-content/themes/metro/assets/img/payment3.png"
+                        alt=""></a>
+            </li>
+            <li>
+                <a href="#"><img
+                        src="https://www.radiustheme.com/demo/wordpress/themes/metro/wp-content/themes/metro/assets/img/payment4.png"
+                        alt=""></a>
+            </li>
+        </ul>
+    </section>
+
+</body>
+
+</html>
